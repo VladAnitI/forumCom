@@ -1,0 +1,273 @@
+.layout {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	gap: 20px;
+}
+
+.menu {
+	padding: 20px;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+	height: 100%;
+}
+
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.user > .avatar {
+	border-radius: 20px;
+	background: #e0e0e0;
+	box-shadow: inset -5px 5px 9px #bebebe, inset 5px -5px 9px #ffffff;
+	width: 175px;
+	height: 175px;
+	margin-bottom: 20px;
+}
+
+.user > .search {
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: #e0e0e0;
+	margin-bottom: 20px;
+}
+
+.user .name {
+	font-size: 24px;
+	color: #27022c;
+}
+
+.user .email {
+	color: #27022c;
+}
+
+.navigation {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/* height: 100%; */
+	width: 100%;
+	border-radius: 20px;
+	background: #e0e0e0;
+	box-shadow: inset -5px 5px 9px #bebebe, inset 5px -5px 9px #ffffff;
+	padding: 20px;
+	gap: 15px;
+}
+
+.link {
+	text-transform: uppercase;
+	font-size: 22px;
+	text-align: center;
+	color: #27022c;
+	text-decoration: none;
+	border-radius: 15px;
+	background: #e0e0e0;
+	padding: 10px;
+}
+
+.active {
+	border-radius: 15px;
+	background: #27022c;
+	color: white;
+}
+
+.accBlock{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: #e0e0e0;
+	box-shadow: inset -5px 5px 9px #bebebe, inset 5px -5px 9px #ffffff;
+	margin-top: 20px;
+}
+
+.logoutBlock{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.logout {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	text-transform: lowercase;
+	text-align: center;
+	width: 130px;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 15px;
+	background: #d96868;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	border-radius: 20px;
+	background: #e0e0e0;
+}
+
+.search-container {
+	position: relative;
+}
+
+.search-icon {
+	position: absolute;
+	top: 50%;
+	right: 17.5px;
+	transform: translate(0, -50%);
+	font-size: 30px;
+	color: white;
+}
+
+.infoBlock{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+
+.avaBlock{
+	width: 100px;
+	height: 100px;
+}
+
+.avaImg{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.nickname{
+	font-size: 27px;
+	margin-bottom: 5px;
+	color: #27022c;
+	cursor: pointer;
+}
+
+.logo-and-name{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: #e0e0e0;
+	margin-bottom: 20px;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+}
+
+.name{
+	margin-left: 10px;
+	font-size: 35px;
+}
+
+.nickBlock{
+	margin-left: 15px;
+}
+
+.email{
+	color: #27022c;
+}
+
+.containerChange{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #bababaab;
+	z-index: 20;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cancelChange{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 100px;
+	cursor: pointer;
+}
+
+.input-file{
+	cursor: pointer;
+	width: 200px;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 6px solid #27022c;
+	border-radius: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	flex-wrap: wrap;
+	background-color: #bababa;
+}
+
+.input-file span{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.done{
+	width: 60px;
+	height: 60px;
+}
+
+.circleChoose{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	border: 6px solid #27022c;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-text{
+	width: 250px;
+	height: 50px;
+	border: 6px solid #27022c;
+	border-radius: 20px;
+	padding-left: 5px;
+	font-size: 20px;
+	background: #bababa;
+}
+
+.buttonSubmit{
+	background: #bababa;
+	padding: 10px;
+	border: 6px solid #27022c;
+	border-radius: 20px;
+	font-size: 30px;
+	cursor: pointer;
+	margin-top: 20px;
+}

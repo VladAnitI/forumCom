@@ -1,0 +1,12 @@
+/* Loading.module.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .loading-spinner {
+    margin: auto;
+  }

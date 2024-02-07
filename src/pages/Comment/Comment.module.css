@@ -1,0 +1,168 @@
+.post {
+	padding: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	height: 100%;
+}
+
+.postHeader {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.nickname {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.postTitle {
+	font-size: 48px;
+	margin-right: 10px;
+	margin-left: 60px;
+}
+
+.postTitleWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.headerRight {
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: -11px;
+}
+
+.postHeader .nickname {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.comments {
+	width: 90%;
+	height: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	border-radius: 10px;
+	padding: 20px;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #27022c transparent;
+}
+
+.comments::-webkit-scrollbar {
+	width: 0.5rem;
+	background: transparent;
+}
+
+.comments::-webkit-scrollbar-thumb {
+	border-radius: 5rem;
+	background: #27022c;
+}
+
+.comments::-webkit-scrollbar-thumb:hover {
+	background: darken(#27022c, 20%);
+}
+
+.comments::-webkit-scrollbar-track {
+	background: #27022c;
+}
+
+.comments::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.comments::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.comment {
+	display: flex;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	width: 100%;
+	word-break: break-word;
+}
+
+.comment img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.comment p span {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.headerRight img {
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.commentUsername {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.commentText {
+	font-size: 16px;
+}
+
+.commentLeft {
+	display: flex;
+	align-items: flex-start;
+	margin-right: 10px;
+}
+
+.commentRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.commentRight span {
+	font-size: 20px;
+}
+
+.textarea {
+	width: 95%;
+	height: 50px;
+	font-size: 16px;
+	border-radius: 10px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	background-color: #ffffff;
+}
+
+.commentTextarea {
+	padding: 13px 10px 8px 10px;
+	font-size: 20px;
+	width: 90%;
+	border: 0;
+  resize: none;
+  overflow: hidden;
+}
+
+.commentButton {
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	padding: 11px 17px;
+	border-radius: 10px;
+	border: 1px;
+	font-size: 20px;
+}
